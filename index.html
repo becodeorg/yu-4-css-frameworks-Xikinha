@@ -30,102 +30,137 @@
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
             cursor: pointer;
         }
+
     </style>
 
 </head>
 <body>
-    <!--<h1 class="m-3">Bootstrap exercise</h1>-->
 
-    <div class="d-flex flex-row flex-wrap justify-content-center" style="margin-top:2rem; margin-bottom:3.2rem;">
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/officetour.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:1.3rem; margin-bottom:1.3rem;">Your EMP Back OfficeTour</h5>
-                <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+    <div class="d-flex flex-nowrap">
+
+        <nav class="sidebar bg-dark" style="width:8rem; min-height:100vh;">
+            <div class="sidebar-header">
+                <a class="navbar-brand" href="#">
+                    <img style="margin-left:1.5rem;margin-top:1rem;margin-bottom:1rem;" src="assets/Bootstrap_logo.svg.png" width="50" height="50" alt="Bootstrap icon">
+                </a>
+            </div>
+
+        <!--<button class="navbar-toggler d-block d-md-none d-lg-none" style="margin-left:25%" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse" id="navbarSupportedContent">-->
+            <div id="navbarSupportedContent">
+                <ul class="list-unstyled">
+                    <li class="active p-1" style="text-align:center;">
+                        <a style="text-decoration:none; font-weight:bold; color:white;" href="#">Home</a>
+                    </li>
+                    <li class="p-1" style="text-align:center;">
+                        <a style="text-decoration:none; font-weight:bold; color:white;" href="#">About</a>
+                    </li>
+                    <li class="p-1" style="text-align:center;">
+                        <a style="text-decoration:none; font-weight:bold; color:white;" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-content" style="min-height:100vh;">
+            <h1 class="m-3">Bootstrap exercise</h1>
+
+            <div class="d-flex flex-row flex-wrap justify-content-center" style="margin-top:2rem; margin-bottom:3.2rem;">
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/officetour.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:1.3rem; margin-bottom:1.3rem;">Your EMP Back OfficeTour</h5>
+                        <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Take the EMP Back OfficeTour" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
+                    </div>
                 </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/tools.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:1.3rem; margin-bottom:1.3rem;">An Overview of Insider Tools & Benefits</h5>
+                        <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Learn more about our tools" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/plan.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:1.5rem; margin-bottom:1.1rem;">The EMP Affiliate Compensation Plan</h5>
+                        <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                            <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Check our Affiliate Compensation Plan" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/coaching.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:2.4rem;">How The EMP Coaching</h5>
+                        <p class="card-text text-center" style="margin-top:1.7rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Learn more about the EMP Coaching" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/referral.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:1.6rem; margin-bottom:1.2rem;">How To Refer People & Make Money</h5>
+                        <p class="card-text text-center" style="margin-top:1rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Find out more about or referral program" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/help.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-center" style="margin-top:3.3rem; margin-bottom:1.5rem;">How To Get Help & Support</h5>
+                        <p class="card-text text-center p-2">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Click here to get help & support" style="font-weight:bold; margin-bottom:0.4rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/training.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center" style="margin-top:1.7rem; margin-bottom:1.1rem;">Getting Started:<br>The Essential Trainings</h5>
+                        <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Learn more about our trainings" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
+                    </div>
+                </div>
+                <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
+                    <img src="assets/way.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-center mx-1" style="margin-top:1.6rem; margin-bottom:1.2rem;">The Fastest Way To Get Your First Sale</h5>
+                        <p class="card-text text-center" style="margin-top:1rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
+                    </div>
+                    <hr style="width:30%; margin:auto;"/>
+                    <div class="card-body mx-auto">
+                        <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Learn more about our sales strategies" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
+                    </div>
                 </div>
             </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/tools.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:1.3rem; margin-bottom:1.3rem;">An Overview of Insider Tools & Benefits</h5>
-                <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/plan.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:1.5rem; margin-bottom:1.1rem;">The EMP Affiliate Compensation Plan</h5>
-                <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/coaching.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:2.4rem;">How The EMP Coaching</h5>
-                <p class="card-text text-center" style="margin-top:1.7rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:1.2rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/referral.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:1.6rem; margin-bottom:1.2rem;">How To Refer People & Make Money</h5>
-                <p class="card-text text-center" style="margin-top:1rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/help.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-2">
-                <h5 class="card-title text-center" style="margin-top:3.3rem; margin-bottom:1.5rem;">How To Get Help & Support</h5>
-                <p class="card-text text-center p-2">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:0.4rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/training.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center" style="margin-top:1.7rem; margin-bottom:1.1rem;">Getting Started:<br>The Essential Trainings</h5>
-                <p class="card-text text-center">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
-                </div>
-            </div>
-            <div class="card mx-3 my-3" style="width:17rem; height:27.8rem;">
-                <img src="assets/way.png" class="card-img-top mx-auto w-25 mt-5 p-1" alt="Building icons created by Freepik - Flaticon">
-                <div class="card-body p-4">
-                <h5 class="card-title text-center mx-1" style="margin-top:1.6rem; margin-bottom:1.2rem;">The Fastest Way To Get Your First Sale</h5>
-                <p class="card-text text-center" style="margin-top:1rem;">Live 15 minutes of daily motivation, inspiration and education with EMP & World business leaders! Recommending.</p>
-                </div>
-                <hr style="width:30%; margin:auto;"/>
-                <div class="card-body mx-auto">
-                    <button type="button" class="btn btn-light rounded-pill text-uppercase p-2" style="font-weight:bold; margin-bottom:0.8rem;" href="#">Learn more</button>
-                </div>
-            </div>
+        </div>
     </div>
 
 </body>
+
 </html>
