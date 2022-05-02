@@ -4,7 +4,7 @@
 - Landing page with links to both exercises.
 
 ## Exercise 1
-- Exercise 1 is made with Flexbox. The sidebar is not collapsable.
+- Exercise 1 is made with Flexbox and has a collapsable sidebar.
 - The Bootstrap icon allows to return to the index.html.
 
 ## Exercise 2
